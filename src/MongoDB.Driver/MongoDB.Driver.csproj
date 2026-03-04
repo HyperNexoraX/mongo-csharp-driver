@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\MongoDB.ruleset</CodeAnalysisRuleSet>
+    <!-- GridFS 是獨立子專案，排除其目錄避免被父層 glob 撿入 -->
+    <DefaultItemExcludes>$(DefaultItemExcludes);GridFS\**</DefaultItemExcludes>
   </PropertyGroup>
 
   <PropertyGroup>
