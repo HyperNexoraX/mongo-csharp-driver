@@ -44,7 +44,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <NoWarn>NU5100</NoWarn>
+    <NoWarn>NU5100;NU1902;NU1903</NoWarn>
   </PropertyGroup>
 
 </Project>
